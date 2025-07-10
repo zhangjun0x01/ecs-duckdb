@@ -91,9 +91,9 @@ endif()
 if (NOT MINGW AND NOT ${WASM_ENABLED})
     duckdb_extension_load(iceberg
            ${LOAD_ICEBERG_TESTS}
-            GIT_URL https://github.com/duckdb/duckdb-iceberg
-            GIT_TAG 003a93fbb005a7fa2469400967a77db509595271
-            )
+           GIT_URL https://github.com/zhangjun0x01/ecs-duckdb-iceberg
+           GIT_TAG 93c2f1e3f7b6d1624cab2b72ad7b1c4dc10a36b7
+    )
 endif()
 
 ################# INET
